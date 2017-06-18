@@ -60,7 +60,7 @@ class Popular extends React.Component {
     //when using state always add a constructor
     //we need a state here to determine which link is active
     constructor (props){
-        super();
+        super(props);
         this.state = {
             selectedLanguage: 'All',
             repos: null
