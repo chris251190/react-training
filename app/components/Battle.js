@@ -5,7 +5,7 @@ var Link = require('react-router-dom').Link;
 function PlayerPreview(props) {
     return (
         <div>
-            <div class="column">
+            <div className="column">
                 <img className="avatar"
                     src={props.avatar}
                     alt={'Avatar for '  + props.username}/>
